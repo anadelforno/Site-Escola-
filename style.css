@@ -51,6 +51,7 @@
 .estudante-icone{
     width: 24px;
     padding: 4px 8px;
+    align-items: center;
 }
 
 .estudante-div{
@@ -58,12 +59,36 @@
     padding: 16px 0;
 }
 .vinicius{
-    width: 20%;
+    width: 120px;
+
 }
 
 .igor{
-    width: 20%;
+    width: 120px;
+   
 }
 .lana{
-    width: 20%;
+    width: 120px;
+    
 }
+
+.rodape{
+    background-color: black;  
+    text-align: center;
+    }
+    
+.rodape-imagem{
+    height: 50px;
+    padding: 12px 0;
+}
+
+.estudante-icone{
+    width: 24px;
+    
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+    }
